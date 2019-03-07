@@ -18,6 +18,9 @@ echo "Email: ".$emailValue.".";
 echo "<br> </br>";
 echo "The total value is: ".$totalValue2.".";
 ?>
+     
         </div>
+    <center>
+        <button onclick="window.location.href='eBus1.php'">Return to Selections</button>
     </body>
 </html>

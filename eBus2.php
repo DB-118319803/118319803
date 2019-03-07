@@ -38,11 +38,11 @@ $_SESSION['txtEmail'] = $emailValue;
                         </tr>
                         <tr>
                             <td>Email</td>
-                            <td><input type="text" id="txtEmail" name="txtEmail" value="" required /></td>
+                            <td><input type="email" id="txtEmail" name="txtEmail" value="" required /></td>
                         </tr>
                         <tr>
                             <td>PIN</td>
-                            <td><input type="text" id="txtPassword" name="txtPassword" value="" required /></td>
+                            <td><input type="text" name="pin" pattern="[0-9]{4}"  size="4" maxlength="4" required ></td>
                         </tr>
                         <tr>
                             <td><input type="hidden" id="txtTotal" name="txtTotal" value="<?php echo $totalValue;?>"/></td>
@@ -53,6 +53,7 @@ $_SESSION['txtEmail'] = $emailValue;
                 
                 <center>
                     <button onclick="window.location.href='eBus1.php'">Return to Selections</button>
+                    
                     <input type="submit" name="btnContinue" id="btnContinue" onclick="" value="Continue"/>
                 </center>
             </form>
