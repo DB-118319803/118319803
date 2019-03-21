@@ -13,7 +13,7 @@ $_SESSION['txtTotal'] = $totalValue;
         <body>
             <button onclick="window.location.href='index.php'">Back to Homepage</button>
         <div class="form">
-            <form name="intCalc" method="post" action="Ebus2.php">
+            <form name="intCalc" method="post" action="eBus2.php">
         <h1>Service Calculator</h1>    
         <hr/>
         <center>
